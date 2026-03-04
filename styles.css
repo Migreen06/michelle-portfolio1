@@ -35,9 +35,9 @@ nav {
     text-align:center;
     justify-content:space-between;
     justify-items: center;
-    padding:2px;
     max-width:80rem;
     margin:auto;
+    align-items:center;
     padding: 1rem 1.5rem;
 }
 
@@ -50,7 +50,7 @@ ul {
 }
 
 li {
-
+    color:rgb(16 185 129);
 }
 
 
