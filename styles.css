@@ -21,7 +21,13 @@ h1.span {
     font-size:large;
 }
 
-
+.text-black {
+    display:flex;
+    color:black;
+    font-weight:bold;
+    font-size:1.25rem;
+    line-height:1.75rem;
+}
 nav {
     display:flex;
     text-align:center;
