@@ -25,6 +25,7 @@ h1.span {
 nav {
     display:flex;
     text-align:center;
+    justify-content:space-between;
     justify-items: center;
     padding:2px;
     max-width:80rem;
@@ -34,7 +35,8 @@ nav {
 
 ul {
     display:flex;
-    font-size:medium;
+    font-size:small;
+    line-height:1.25rem;
     text-transform:uppercase;
     padding:8px;
 }
@@ -47,6 +49,7 @@ li {
 main {
     text-align:center;
     margin:auto;
+    padding:1.5rem;
     max-width:80rem;
 }
 h2 {
