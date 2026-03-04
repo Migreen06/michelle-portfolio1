@@ -41,6 +41,15 @@ nav {
     padding: 1rem 1.5rem;
 }
 
+
+.group {
+ align-items:center;
+ display:flex;
+ margin-bottom:1rem;
+    
+}
+
+
 ul {
     display:flex;
     font-size:small;
