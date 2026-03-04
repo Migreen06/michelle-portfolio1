@@ -1,5 +1,7 @@
 body {
     background: linear-gradient(to right, #0f9b0f, #000000);
+    font-family:sans;
+
 }
 
 
@@ -10,12 +12,28 @@ h1 {
 
 }
 
+h1.span {
+    color:emerald;
+    font-weight:500;
+    font-size:large;
+}
+
+
+nav {
+    display:flex;
+    text-align:center;
+    justify-items: center;
+    padding:2px;
+    
+}
 
 ul {
     display:flex;
     font-size:medium;
     text-transform:uppercase;
+    padding:8px;
 }
+
 li {
 
 }
