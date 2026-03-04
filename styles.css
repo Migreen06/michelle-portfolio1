@@ -26,10 +26,20 @@ h1.span {
 .text-black {
     display:flex;
     color:black;
-    font-weight:bold;
+    font-weight:700;
     font-size:1.25rem;
     line-height:1.75rem;
 }
+
+.w-10 {
+    background-color:rgb(16 185 129);
+    justify-content:center;
+    align-items:center;
+    border-radius:.5rem;
+
+}
+
+
 nav {
     display:flex;
     text-align:center;
