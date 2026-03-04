@@ -15,7 +15,7 @@ h1 {
 
 }
 
-h1.span {
+.web {
     color:rgb(16 185 129 / var(--tw-text-opacity, 1));
     font-weight:300;
     font-size:1.125rem;
