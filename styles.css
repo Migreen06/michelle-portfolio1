@@ -16,6 +16,7 @@ nav {
     /* This pushes Logo left and Links right */
     align-items: center;
     /* This centers them vertically */
+    text-align:center;
     max-width: 80rem;
     margin: 0 auto;
     padding: 1rem 1.5rem;
@@ -24,6 +25,8 @@ nav {
 .group {
     display: flex;
     align-items: center;
+    margin:0 auto;
+    width:auto;
     gap: 1rem;
     /* Replaces the broken calc(0.5rem * var...) */
 }
