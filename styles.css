@@ -23,6 +23,11 @@ h1 {
     margin-left:.25rem;
 }
 
+a {
+    text-decoration:none;
+    color:white;
+}
+
 .text-black {
     display:flex;
     color:black;
