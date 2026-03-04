@@ -35,6 +35,9 @@ h1.span {
     background-color:rgb(16 185 129);
     justify-content:center;
     align-items:center;
+    width:2.5rem;
+    display:flex;
+    height:2.5rem;
     border-radius:.5rem;
 
 }
