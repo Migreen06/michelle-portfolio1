@@ -53,7 +53,7 @@ a {
 nav {
     display: flex;
     text-align: center;
-    justify-content: space-between;
+    justify-content: center;
     justify-items: center;
     margin:0 auto;
     align-items: center;
