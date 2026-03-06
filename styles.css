@@ -1,9 +1,9 @@
 body {
+    background: radial-gradient(circle at top right, #064e3b, #022c22, #000000);
     background: linear-gradient(to bottom, #0f9b0f, #000000);
     font-family: ui-sans-serif, system-ui, sans-serif;
     color: gray;
     min-height:1600px;
-    background: radial-gradient(circle at top right, #064e3b, #022c22, #000000);
 }
 
 
