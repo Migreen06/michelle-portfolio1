@@ -4,6 +4,7 @@ body {
     font-family: ui-sans-serif, system-ui, sans-serif;
     color: gray;
     min-height:1600px;
+    background: radial-gradient(circle at top right, #064e3b, #022c22, #000000);
 }
 
 
