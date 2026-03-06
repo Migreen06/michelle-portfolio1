@@ -97,6 +97,8 @@ h2 {
     color:transparent;
     line-height: 65px;
     font-weight:700;
+    margin:0;
+    text-align:center;
     font-size:3rem;
     background-clip:text;
     background-image: linear-gradient(to bottom, #fff, #10b981);
