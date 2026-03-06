@@ -99,4 +99,5 @@ h2 {
     font-size:3rem;
     background-clip:text;
     background-image: linear-gradient(to bottom, #fff, #10b981);
+    background-image: linear-gradient(to right, #3b82f6, #22c55e);
 }
