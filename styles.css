@@ -86,6 +86,10 @@ li {
     color: rgb(16 185 129);
 }
 
+li:hover {
+    text-decoration: wavy underline;
+}
+
 main {
     text-align: center;
     margin: auto;
