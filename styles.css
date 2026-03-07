@@ -32,14 +32,14 @@ a {
     padding: 20px;
 }
 
-.btn {
+a.btn {
     background-color:#10b981;
     padding:10px 20px;
     font-weight:500;
     border-radius:8px;
 }
 
-.btn:hover {
+a.btn:hover {
     background-color: #0ac687b4;
     transition: ease-in 0.3s;
 }
