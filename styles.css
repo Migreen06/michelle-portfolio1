@@ -32,7 +32,7 @@ a {
     padding: 20px;
 }
 
-div.btn {
+button {
     background-color:linear-gradient(to right, #fff, #000, #10b981);
     padding:10px 20px;
     font-weight:500;
@@ -40,7 +40,7 @@ div.btn {
     max-width:100px;
 }
 
-.btn:hover {
+button:hover {
     background-color: #0ac687b4;
     transition: ease-in 0.3s;
 }
