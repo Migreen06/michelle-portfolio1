@@ -89,6 +89,7 @@ li {
 li:hover {
     color: #10b981b4;
     text-decoration-line: underline;
+    transition: ease-in-out 0.3s;
 }
 
 main {
