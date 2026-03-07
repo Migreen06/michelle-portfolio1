@@ -86,8 +86,9 @@ li {
     color: rgb(16 185 129);
 }
 
-ul:hover {
-    text-decoration: wavy underline;
+li:hover {
+    color: #10b981b4;
+    text-decoration-line: underline;
 }
 
 main {
