@@ -33,7 +33,7 @@ a {
 }
 
 .btn {
-    background-color:#10b981;
+    background-color:linear-gradient(to right, #fff, #000, #10b981);
     padding:10px 20px;
     font-weight:500;
     border-radius:8px;
