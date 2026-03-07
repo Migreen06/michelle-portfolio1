@@ -87,7 +87,7 @@ li {
 }
 
 li:hover {
-    color: #069263b4;
+    color: #0ac687b4;
     text-decoration-line: underline;
     transition: ease-in 0.3s;
 }
@@ -99,8 +99,7 @@ main {
 }
 
 img {
-    margin:0 auto;
-    width:300px;
+    margin:0;
 }
 
 h2 {
