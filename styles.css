@@ -90,7 +90,6 @@ li {
 main {
     text-align: center;
     margin: auto;
-    padding-top: 6rem 1.5rem;
     max-width: 80rem;
 }
 
@@ -99,7 +98,7 @@ h2 {
     line-height: 65px;
     font-weight:700;
     margin:0;
-    padding-top:8rem;
+    padding-top:10rem;
     text-align:center;
     font-size:3rem;
     background-clip:text;
