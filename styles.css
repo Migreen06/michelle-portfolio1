@@ -40,8 +40,8 @@ button {
 }
 
 button:hover {
-    background-color: #0ac687b4;
-    transition: ease-in 0.3s;
+  scale:10%;
+  transition: ease-in 0.3s;
 }
 
 .text-black {
