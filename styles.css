@@ -62,6 +62,23 @@ button:hover {
     border-radius: .5rem;
 }
 
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    max-width:90%;
+}
+
+.card {
+    background: radial-gradient(circle, #064e3b, #022c22, #000000);
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: 0px 1px 3px, #fff 0px 1px 2px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+}
 
 nav {
     text-align: center;
