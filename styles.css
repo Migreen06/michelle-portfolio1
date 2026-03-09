@@ -106,11 +106,6 @@ button:hover {
     justify-content: center;
     gap: 1rem;
     margin-top: 2rem;
-    view-timeline: --subject-reveal block;
-        animation-timeline: --subject-reveal;
-        animation-name: appear;
-        animation-range: entry 0% entry 40%;
-        animation-fill-mode: both;
 }
 
 .card {
@@ -121,6 +116,11 @@ button:hover {
     box-shadow: 0px 1px 3px, #fff 0px 1px 2px;
     max-width: 300px;
     text-align: center;
+    view-timeline: --subject-reveal block;
+        animation-timeline: --subject-reveal;
+        animation-name: appear;
+        animation-range: entry 0% entry 30%;
+        animation-fill-mode: both;
 }
 
 nav {
