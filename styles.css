@@ -53,8 +53,8 @@ button:hover {
 }
 
 .wrap {
-    shape-outside: circle(50%);
-    clip-path: circle(20%);
+    shape-outside: circle(20%);
+    clip-path: circle(100%);
     object-fit: cover;
     float: left;
     width: 300px;
