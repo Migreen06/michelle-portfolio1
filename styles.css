@@ -52,12 +52,6 @@ button:hover {
     line-height: 1.75rem;
 }
 
-.wrap {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
 .w-10 {
     background-color: rgb(16 185 129);
     justify-content: center;
