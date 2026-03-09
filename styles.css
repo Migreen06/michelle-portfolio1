@@ -109,6 +109,8 @@ button:hover {
     view-timeline: --subject-reveal block;
         animation-timeline: --subject-reveal;
         animation-name: appear;
+        animation-range: entry 0% entry 40%;
+        animation-fill-mode: both;
 }
 
 .card {
