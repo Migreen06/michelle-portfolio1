@@ -53,13 +53,9 @@ button:hover {
 }
 
 .wrap {
-    shape-outside: circle(80%);
-    clip-path: circle(100%);
-    object-fit: cover;
-    float: right;
-    width: 300px;
-    height: 300px;
-    margin: 0 20px 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .w-10 {
