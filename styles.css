@@ -52,7 +52,15 @@ button:hover {
     line-height: 1.75rem;
 }
 
-
+.wrap {
+    shape-outside: circle(50%);
+        clip-path: circle(50%);
+    object-fit: cover;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 0 20px 20px 0;
+}
 
 .w-10 {
     background-color: rgb(16 185 129);
