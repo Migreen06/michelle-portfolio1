@@ -130,7 +130,6 @@ button:hover {
 
 nav {
     text-align: right;
-    max-width: 80rem;
     padding-bottom:2rem;
 }
 
@@ -143,12 +142,9 @@ nav {
 
 ul {
     display: flex;
-    font-size: .875rem;
     font-weight: 500;
     list-style: none;
-    align-content: center;
     justify-content: center;
-    margin: 0;
     text-transform: uppercase;
 }
 
