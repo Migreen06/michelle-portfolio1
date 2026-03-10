@@ -134,6 +134,7 @@ nav {
 
 
 .group {
+    align-items: center;
     display: flex;
 }
 
