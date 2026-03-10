@@ -113,8 +113,7 @@ button:hover {
     view-timeline: --subject-reveal block;
         animation-timeline: --subject-reveal;
         animation-name: appear;
-        animation-timing-function: cubic-bezier(0.6, 0.28, 0.735, 0.045);
-        animation-range: entry 10% entry 20%;
+        animation-range: entry 10% entry 100%;
     }
 
 .card {
