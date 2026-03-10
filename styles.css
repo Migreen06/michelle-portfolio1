@@ -49,7 +49,7 @@ h1 {
     stroke: #000000;
     color: white;
     font-style: italic;
-    animation:slideinfrombottom 0.5s ease-in;
+    animation:slideinfrombottom 2s ease-in;
 }
 
 .web {
@@ -186,7 +186,7 @@ h2 {
     font-weight: 700;
     margin: 0;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     background-clip: text;
     animation: slideInFromBottom 0.5s ease-out; 
     background-image: linear-gradient(to top, #3b82f6, #22c55e, #10b981);
