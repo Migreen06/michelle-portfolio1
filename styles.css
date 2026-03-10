@@ -94,8 +94,6 @@ button:hover {
 
 .w-10 {
     background-color: rgb(16 185 129);
-    justify-content: center;
-    align-items: center;
     width: 2.5rem;
     display: flex;
     height: 2.5rem;
@@ -138,19 +136,14 @@ nav {
 
 
 .group {
-    align-items: center;
     display: flex;
-    justify-content: center;
 }
 
 
 ul {
     display: flex;
-    font-size: .875rem;
     font-weight: 500;
     list-style: none;
-    align-content: center;
-    justify-content: center;
     margin: 0;
     text-transform: uppercase;
 }
