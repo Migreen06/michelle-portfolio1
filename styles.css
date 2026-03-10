@@ -97,6 +97,7 @@ button:hover {
     width: 2.5rem;
     display: flex;
     height: 2.5rem;
+    align-items:center;
     border-radius: .5rem;
 }
 
