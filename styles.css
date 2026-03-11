@@ -181,7 +181,7 @@ h2 {
     font-weight: 700;
     margin: 0;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     background-clip: text;
     animation: slideInFromBottom 0.5s ease-out;
     background-image: linear-gradient(to top, #3b82f6, #22c55e, #10b981);
