@@ -38,8 +38,7 @@
 
 
 body {
-    background: black;
-    font-family: ui-sans-serif, system-ui, sans-serif;
+    background: radial-gradient(circle, #064e3b, #022c22, #000000);    font-family: ui-sans-serif, system-ui, sans-serif;
     color: lightgrey;
     min-height: 1600px;
 }
@@ -142,6 +141,7 @@ nav {
 .group {
     align-items: center;
     display: flex;
+    justify-content:flex-start;
 }
 
 
