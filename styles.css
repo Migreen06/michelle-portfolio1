@@ -181,5 +181,11 @@ h2 {
     animation: slideInFromBottom 0.5s ease-out; 
     background-image: linear-gradient(to top, #3b82f6, #22c55e, #10b981);
     background-image: linear-gradient(to bottom, #fff, #10b981);
+}
 
+footer {
+    font-size:15px;
+    text-align:center;
+    margin:0 auto;
+    padding-top:50px;
 }
