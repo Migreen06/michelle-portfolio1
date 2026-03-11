@@ -52,10 +52,13 @@ h1 {
 
 .web {
     color: rgb(16 185 129);
-    font-weight: 300;
     font-size: 1.125rem;
     line-height: 1.75rem;
     margin-left: .25rem;
+}
+
+.green {
+    color:#10b981;
 }
 
 
