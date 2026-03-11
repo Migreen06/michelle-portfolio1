@@ -37,7 +37,7 @@
 
 
 body {
-    background: radial-gradient(circle, #064e3b, #022c22, #000000);
+    background: black;
     font-family: ui-sans-serif, system-ui, sans-serif;
     color: lightgrey;
     min-height: 1600px;

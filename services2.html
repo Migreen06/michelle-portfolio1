@@ -34,7 +34,6 @@
             scroll-behavior: smooth;
         }
 
-        /* --- BACKGROUND SCORPION TEXTURE --- */
         body::before {
             content: "CODE FIRST ARTISANS";
             position: fixed;
@@ -49,7 +48,6 @@
             pointer-events: none;
         }
 
-        /* --- UTILITIES --- */
         .container {
             max-width: 1200px;
             margin: 0 auto;
@@ -64,15 +62,11 @@
             font-family: var(--mono-font);
         }
 
-        /* --- HEADER --- */
         header {
             padding: 2rem 0;
             border-bottom: 1px solid var(--border-color);
             background: rgba(5, 10, 8, 0.8);
             backdrop-filter: blur(10px);
-            position: sticky;
-            top: 0;
-            z-index: 100;
         }
 
         .nav-content {
@@ -89,27 +83,7 @@
             font-size: 1.5rem;
         }
 
-        .status-tag {
-            font-family: var(--mono-font);
-            font-size: 0.7rem;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            padding: 0.5rem 1rem;
-            border: 1px solid var(--border-color);
-            border-radius: 50px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
 
-        .status-dot {
-            width: 6px;
-            height: 6px;
-            background: var(--accent-color);
-            border-radius: 50%;
-            box-shadow: 0 0 8px var(--accent-color);
-            animation: pulse 2s infinite;
-        }
 
         @keyframes pulse {
             0% {
@@ -125,7 +99,6 @@
             }
         }
 
-        /* --- HERO --- */
         .hero {
             padding: 8rem 0 4rem;
             text-align: center;
@@ -136,7 +109,6 @@
             font-weight: 900;
             line-height: 0.9;
             text-transform: uppercase;
-            italic: true;
             letter-spacing: -4px;
             margin-bottom: 2rem;
         }
@@ -148,7 +120,6 @@
             font-size: 1.1rem;
         }
 
-        /* --- SERVICES GRID --- */
         .services-section {
             padding: 8rem 0;
         }
@@ -226,7 +197,7 @@
 
         .service-card p {
             color: var(--text-dim);
-            font-size: 0.95rem;
+            font-size: 1rem;
             margin-bottom: 2rem;
         }
 
@@ -245,7 +216,6 @@
             content: "→ ";
         }
 
-        /* --- PURE CSS SCROLL REVEAL --- */
         @keyframes reveal {
             from {
                 opacity: 0;
@@ -266,7 +236,6 @@
             animation-range: entry 5% entry 35%;
         }
 
-        /* --- MISSION FOOTER --- */
         .mission-footer {
             padding: 10rem 0;
             background: linear-gradient(to bottom, transparent, #0a130f);
@@ -277,7 +246,6 @@
             font-size: 4rem;
             font-weight: 900;
             text-transform: uppercase;
-            italic: true;
             margin-bottom: 2rem;
         }
 
@@ -321,10 +289,6 @@
         <div class="container nav-content">
             <div class="logo">
                 GREEN <span class="text-accent">SCORPION</span>
-            </div>
-            <div class="status-tag font-mono">
-                <div class="status-dot"></div>
-                Systems_Online
             </div>
         </div>
     </header>
