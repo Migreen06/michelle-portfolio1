@@ -33,7 +33,8 @@
     to {
         opacity: 1;
         transform: scaleX(1);
-    } }
+    }
+}
 
 
 body {
@@ -49,7 +50,7 @@ h1 {
     stroke: #000000;
     color: white;
     font-style: italic;
-    animation:slideinfrombottom 2s ease-in;
+    animation: slideinfrombottom 2s ease-in;
 }
 
 .web {
@@ -73,15 +74,16 @@ a {
 }
 
 button {
-    background: radial-gradient(circle, #064e3b, #022c22, #000000);    padding:10px 20px;
-    font-weight:500;
-    border-radius:8px;
-    max-width:200px;
+    background: radial-gradient(circle, #064e3b, #022c22, #000000);
+    padding: 10px 20px;
+    font-weight: 500;
+    border-radius: 8px;
+    max-width: 200px;
 }
 
 button:hover {
-  scale:1.2;
-  transition: ease-in 0.3s;
+    scale: 1.2;
+    transition: ease-in 0.3s;
 }
 
 .text-black {
@@ -97,8 +99,8 @@ button:hover {
     width: 2.5rem;
     display: flex;
     height: 2.5rem;
-    align-items:center;
-    justify-content:center;
+    align-items: center;
+    justify-content: center;
     border-radius: .5rem;
 }
 
@@ -111,10 +113,10 @@ button:hover {
 
 .container {
     view-timeline: --subject-reveal block;
-        animation-timeline: --subject-reveal;
-        animation-name: appear;
-        animation-range: entry 20% entry 20%;
-    }
+    animation-timeline: --subject-reveal;
+    animation-name: appear;
+    animation-range: entry 20% entry 20%;
+}
 
 .card {
     background: radial-gradient(circle, #064e3b, #022c22, #000000);
@@ -130,7 +132,9 @@ button:hover {
 
 nav {
     text-align: right;
-    padding-bottom:2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: flex-end;
 }
 
 
@@ -178,34 +182,34 @@ h2 {
     text-align: center;
     font-size: 2rem;
     background-clip: text;
-    animation: slideInFromBottom 0.5s ease-out; 
+    animation: slideInFromBottom 0.5s ease-out;
     background-image: linear-gradient(to top, #3b82f6, #22c55e, #10b981);
     background-image: linear-gradient(to bottom, #fff, #10b981);
 }
 
 footer {
-    font-size:15px;
-    text-align:center;
-    margin:0 auto;
-    padding-top:50px;
-} 
+    font-size: 15px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+}
 
 .nav-link {
-     position: relative;
-     transition: color 0.3s ease;
- }
+    position: relative;
+    transition: color 0.3s ease;
+}
 
- .nav-link::after {
-     content: '';
-     position: absolute;
-     width: 0;
-     height: 2px;
-     bottom: -4px;
-     left: 0;
-     background-color: #10b981;
-     transition: width 0.3s ease;
- }
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #10b981;
+    transition: width 0.3s ease;
+}
 
- .nav-link:hover::after {
-     width: 100%;
- }
+.nav-link:hover::after {
+    width: 100%;
+}
