@@ -26,7 +26,7 @@
         }
 
         body {
-            background: radial-gradient(circle, #064e3b, #022c22, #000000);    
+            background: radial-gradient(circle, #064e3b, #022c22, #000000);
             font-family: ui-sans-serif, system-ui, sans-serif;
             color: white;
             line-height: 1.6;
@@ -155,8 +155,8 @@
             display: flex;
             font-weight: 500;
             list-style: none;
-            align-items:center;
-            gap:15px;
+            align-items: center;
+            gap: 15px;
             text-decoration: none;
             text-transform: uppercase;
         }
@@ -164,7 +164,7 @@
         li {
             color: white;
             text-decoration: none;
-            text-align:left;
+            text-align: left;
         }
 
 
@@ -229,7 +229,7 @@
             font-family: var(--mono-font);
             font-size: 1rem;
             text-transform: uppercase;
-            text-align:left;
+            text-align: left;
             color: var(--accent-color);
             display: flex;
             flex-direction: column;
@@ -281,9 +281,35 @@
         }
 
         a {
-                color: white;
-                text-decoration: none;
-            }
+            color: white;
+            text-decoration: none;
+        }
+
+
+        .text-black {
+            display: flex;
+            color: black;
+            font-weight: 700;
+            font-size: 1.25rem;
+            line-height: 1.75rem;
+        }
+
+        .group {
+            align-items: center;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .w-10 {
+            background-color: rgb(16 185 129);
+            width: 2.5rem;
+            display: flex;
+            height: 2.5rem;
+            align-items: center;
+            justify-content: center;
+            border-radius: .5rem;
+        }
+
 
         @media (max-width: 768px) {
             .grid {
@@ -529,8 +555,10 @@
                             </svg>
                         </div>
                         <h4>E-commerce Architecture</h4>
-                        <p>We specialize in enterprise-level catalog management and site architecture. Whether scaling 5,000+ SKUs or executing
-                        complex platform migrations, we deliver the technical stability required for high-volume, high-performance commerce.</p>
+                        <p>We specialize in enterprise-level catalog management and site architecture. Whether scaling
+                            5,000+ SKUs or executing
+                            complex platform migrations, we deliver the technical stability required for high-volume,
+                            high-performance commerce.</p>
                         <ul class="service-list">
                             <li>Shopify Plus</li>
                             <li>Woocommerce</li>
