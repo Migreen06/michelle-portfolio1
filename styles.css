@@ -134,6 +134,7 @@ nav {
     text-align: right;
     padding-bottom: 2rem;
     display: flex;
+    align-items:center;
     justify-content: flex-end;
 }
 
