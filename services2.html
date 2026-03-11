@@ -75,7 +75,7 @@
             text-transform: uppercase;
             letter-spacing: -1px;
             font-size: 1.5rem;
-            text-decoration:none;
+            text-decoration: none;
         }
 
 
@@ -145,6 +145,28 @@
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
             gap: 2rem;
         }
+
+        ul {
+            display: flex;
+            font-weight: 500;
+            list-style: none;
+            justify-content: center;
+            text-transform: uppercase;
+        }
+
+        li {
+            color: rgb(16 185 129);
+        }
+
+        li:hover {
+            color: #0ac687b4;
+            text-decoration-line: underline;
+            text-decoration-thickness: 3px;
+            transition: ease-in 0.3s;
+        }
+
+
+
 
         .service-card {
             background: var(--card-bg);
@@ -284,9 +306,17 @@
         <a href="index-html">
 
             <div class="logo">
-                    GREEN <span class="text-accent">SCORPION</span>
+                GREEN <span class="text-accent">SCORPION</span>
             </div>
         </a>
+        <nav>
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services2.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="results.html">Results</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
