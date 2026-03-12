@@ -171,14 +171,15 @@ nav {
     justify-content: flex-start;
 }
 
-
 ul {
-    display: flex;
     font-weight: 500;
     list-style: none;
-    justify-content: flex-end;
+    gap: 15px;
+    text-decoration: none;
     text-transform: uppercase;
+    display: inline-flex;
 }
+
 
 li {
     color: rgb(16 185 129);
