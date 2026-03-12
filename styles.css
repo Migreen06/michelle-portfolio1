@@ -38,7 +38,8 @@
 
 
 body {
-    background: radial-gradient(circle, #064e3b, #022c22, #000000);    font-family: ui-sans-serif, system-ui, sans-serif;
+    background: radial-gradient(circle, #064e3b, #022c22, #000000);
+    font-family: ui-sans-serif, system-ui, sans-serif;
     color: lightgrey;
 }
 
@@ -63,7 +64,7 @@ h1 {
     font-style: italic;
     color: white;
     justify-content: flex-start;
-    padding-left: .5rem;
+    padding-left: 1rem;
     padding-right: 5rem;
     text-transform: uppercase;
     letter-spacing: -1px;
@@ -127,13 +128,6 @@ button:hover {
     margin-top: 2rem;
 }
 
-.container {
-    view-timeline: --subject-reveal block;
-    animation-timeline: --subject-reveal;
-    animation-name: appear;
-    animation-range: entry 20% entry 20%;
-}
-
 .card {
     background: radial-gradient(circle, #064e3b, #022c22, #000000);
     padding: 20px 10px;
@@ -142,22 +136,39 @@ button:hover {
     box-shadow: 0px 1px 3px, #fff 0px 1px 2px;
     max-width: 300px;
     text-align: center;
+    view-timeline-name: --reveal;
+    view-timeline-axis: block;
+    animation: reveal linear both;
+    animation-timeline: --reveal;
+    animation-range: entry 5% entry 35%;
 }
 
+
+@keyframes reveal {
+    from {
+        opacity: 0;
+        transform: translateY(50px) scale(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
 
 
 nav {
     text-align: right;
     padding-bottom: 2rem;
     display: flex;
-    align-items:center;
+    align-items: center;
 }
 
 
 .group {
     align-items: center;
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
 }
 
 
@@ -199,7 +210,8 @@ h2 {
     text-align: center;
     font-size: 2.5rem;
     background-clip: text;
-    animation: slideInFromBottom 2s ease-in;    background-image: linear-gradient(to top, #3b82f6, #22c55e, #10b981);
+    animation: slideInFromBottom 2s ease-in;
+    background-image: linear-gradient(to top, #3b82f6, #22c55e, #10b981);
     background-image: linear-gradient(to bottom, #fff, #10b981);
 }
 
