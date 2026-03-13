@@ -271,3 +271,15 @@ footer {
         gap: 10px;
     }
 }
+#menu-toggle:checked+label+nav {
+    display: block;
+}
+
+label {
+    display: inline;
+    background: darkgreen;
+    font-size: 1em;
+    padding: .2em;
+    color: white;
+    border: none;
+}
